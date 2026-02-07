@@ -156,13 +156,13 @@ export function PricingSection() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.25 }}
-            className="mb-8"
+            className="mb-8 flex justify-center"
           >
             <a
               href={GOOGLE_FORM_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block w-full sm:w-auto px-12 py-4 bg-white text-primary rounded-lg font-semibold hover:opacity-90 transition-opacity text-lg text-center"
+              className="inline-block w-full sm:w-auto px-12 py-4 bg-white text-primary rounded-lg font-semibold hover:opacity-90 transition-opacity text-lg text-center ml-4"
               style={{ fontFamily: "Figtree", fontWeight: "600" }}
             >
               Join Waitlist

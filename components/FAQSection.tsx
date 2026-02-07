@@ -30,7 +30,7 @@ const defaultFAQs: FAQItem[] = [
   {
     question: "What are the founding member benefits?",
     answer:
-      "Founding members get early access before the public launch, 3 months of Premium features for free, and an exclusive founding member badge. Your feedback directly shapes the product development, making you part of building the future of learning.",
+      "Founding members get early access before the public launch, 2 months of Premium features for free, and an exclusive founding member badge. Your feedback directly shapes the product development, making you part of building the future of learning.",
   },
 ]
 export const FAQSection = ({ title = "Frequently Asked Questions", faqs = defaultFAQs }: FAQSectionProps) => {
