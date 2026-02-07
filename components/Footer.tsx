@@ -134,9 +134,15 @@ export const Footer = ({
           </motion.div>
 
           {/* Link Sections */}
-          {sections.map((section, index) => (
-            null
-          ))}
+          <div className="flex items-center gap-6 mt-6">
+            <a
+              href="#waitlist"
+              className="text-sm text-[#666666] hover:text-[#202020] transition-colors duration-150"
+              style={{ fontFamily: "Figtree" }}
+            >
+              Waitlist
+            </a>
+          </div>
         </div>
 
         {/* Bottom Bar */}
