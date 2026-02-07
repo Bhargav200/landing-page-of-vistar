@@ -150,12 +150,12 @@ export function PricingSection() {
             ))}
           </motion.div>
 
-          {/* CTA Button */}
+          {/* Join Waitlist Button */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            transition={{ duration: 0.6, delay: 0.25 }}
             className="mb-8"
           >
             <a
