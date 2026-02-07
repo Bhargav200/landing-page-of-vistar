@@ -89,13 +89,6 @@ export const BankingScaleHero = () => {
           >
             Request Early Access
           </button>
-          <button
-            onClick={() => document.getElementById("feedback")?.scrollIntoView({ behavior: "smooth" })}
-            className="px-8 py-3 border-2 border-primary-foreground text-primary-foreground rounded-lg font-semibold hover:bg-primary-foreground/10 transition-colors w-fit"
-            style={{ fontFamily: "Figtree", fontWeight: "600" }}
-          >
-            Help Shape Vistar
-          </button>
         </motion.div>
 
         {/* Trust Statement */}

@@ -23,11 +23,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Vistar - The AI-Guided Learning Operating System",
-  description: "Stop drowning in scattered notes. Vistar is the AI-guided operating system designed to organize your learning, protect your focus, and tell you exactly what to learn next. Join the first 1,000 founding members.",
+  description: "Stop drowning in scattered notes. Vistar is AI-guided operating system designed to organize your learning, protect your focus, and tell you exactly what to learn next. Join the first 1,000 founding members.",
   icons: {
-    icon: [],
-    apple: [],
-    shortcut: [],
+    icon: "/favicon.ico",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
 }
 
@@ -38,10 +38,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="icon" href="data:," />
-        <link rel="icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNkYPhfDwAChwGA60e6kgAAAABJRU5ErkJggg==" />
-      </head>
       <body className={`${inter.variable} ${figtree.variable} ${geistMono.variable} font-sans antialiased`}>
         {children}
         <Analytics />
