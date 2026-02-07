@@ -11,7 +11,7 @@ export const IntegrationCarousel = () => {
       title: "Students",
       benefits: [
         "Overcome exam anxiety by knowing exactly what specifically to study",
-        "Replace 5 different notes apps with one system",
+        "Replace 5 different apps with one system",
       ],
     },
     {

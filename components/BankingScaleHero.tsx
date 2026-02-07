@@ -72,7 +72,7 @@ export const BankingScaleHero = () => {
           className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl leading-relaxed"
           style={{ fontFamily: "Figtree", fontWeight: "400" }}
         >
-          Stop drowning in scattered notes and random playlists. Vistar is the AI-guided operating system designed to organize your learning, protect your focus, and tell you exactly what to learn next.
+          Stop drowning in scattered notes and random playlists. Vistar is the Unified AI-powered learning environment system that organizes your learning, protects your focus, and tells you exactly what to learn next.
         </motion.p>
 
         {/* CTAs */}

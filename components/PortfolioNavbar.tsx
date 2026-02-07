@@ -55,13 +55,13 @@ export const PortfolioNavbar = () => {
           <div className="flex-shrink-0">
             <button
               onClick={() => handleLinkClick("#home")}
-              className="relative h-20 w-64 hover:opacity-80 transition-opacity duration-200 flex items-center justify-center"
+              className="relative h-20 w-64 hover:opacity-80 transition-opacity duration-200 flex items-center justify-start"
               aria-label="Vistar Home"
             >
               <img
                 src="/vistar-logo.png"
                 alt="Vistar Logo"
-                className="h-full w-full object-contain"
+                className="h-full w-full object-contain object-left"
               />
             </button>
           </div>

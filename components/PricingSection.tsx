@@ -28,7 +28,7 @@ export function PricingSection() {
 
   const benefits = [
     { icon: "✓", text: "Early Access - Get the app before public launch" },
-    { icon: "✓", text: "3 Months Premium FREE - All features unlocked" },
+    { icon: "✓", text: "2 Months Premium FREE - All features unlocked" },
     { icon: "✓", text: "Founding Member Badge - Exclusive recognition" },
   ]
 
