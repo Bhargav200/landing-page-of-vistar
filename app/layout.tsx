@@ -38,6 +38,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" />
+        <link rel="shortcut icon" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
+        <meta name="theme-color" content="#004E64" />
+      </head>
       <body className={`${inter.variable} ${figtree.variable} ${geistMono.variable} font-sans antialiased`}>
         {children}
         <Analytics />
