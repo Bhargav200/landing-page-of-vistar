@@ -25,9 +25,9 @@ export const metadata: Metadata = {
   title: "Vistar - The AI-Guided Learning Operating System",
   description: "Stop drowning in scattered notes. Vistar is AI-guided operating system designed to organize your learning, protect your focus, and tell you exactly what to learn next. Join the first 1,000 founding members.",
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon.png",
-    apple: "/favicon.png",
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
   },
 }
 
